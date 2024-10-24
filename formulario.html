@@ -12,14 +12,46 @@
 
     <nav>
       <a href="/index.html">Inicio</a>
-      <a href="/personajes_y_misiones.html">Personajes y misiones</a>
+      <a href="/listas.html">Listas</a>
       <a href="/tablas.html">Tablas</a>
       <a href="/imagenes.html">Imagenes</a>
-      <a href="#"></a>
+      <a href="formulario.html">Formulario</a>
     </nav>
 
     <section>
-      <form></form>
+      <h2>¿Deseas registrarte?</h2>
+
+      <form>
+        <fieldset>
+          <legend>Llena este formulario con los datos que gustes</legend>
+          <label for="txtNombre">Nombre</label>
+          <input
+            type="text"
+            name="txtNombre"
+            id="txtNombre"
+            placeholder="Escribe tu nombre"
+          />
+
+          <label for="txtEdad">Edad</label>
+          <input
+            type="number"
+            name="txtEdad"
+            id="txtEdad"
+            placeholder="Escribe tu edad"
+          />
+
+          <label for="txtCriatura">Seleciona una criarira</label>
+          <select name="txtCriatura" id="txtCriatura" required>
+            <option value="">--Selecciona--</option>
+            <option value="dragon">Dragon</option>
+            <option value="elfo">Elfo</option>
+            <option value="enano">Enano</option>
+            <option value="hada">Hada</option>
+          </select>
+
+          <button type="submit">Registrase</button>
+        </fieldset>
+      </form>
     </section>
   </body>
 </html>
