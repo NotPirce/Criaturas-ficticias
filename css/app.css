@@ -89,3 +89,40 @@ body {
   margin: 0 auto;
   margin-top: 1rem;
 }
+
+.style_h2 {
+  color: var(--negro);
+  font-size: 1.9rem;
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.ulcriaturas {
+  color: var(--negro);
+  font-size: 1.5rem;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.style_h3 {
+  color: var(--azul);
+  font-size: 1.5rem;
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.style_li {
+  color: var(--rojo);
+  font-size: 1.5rem;
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.style_li2 {
+  color: var(--rojo);
+  font-size: 2rem;
+  text-align: left;
+  margin-top: 1rem;
+  font-weight: bold;
+}
