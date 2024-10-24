@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+
+:root {
+  --marron: #4e3b31;
+  --verde: #4b7f52;
+  --rojo: #8a1b23;
+  --amarillo: #d3b168;
+  --gris: #7d7f7d;
+  --azul: #1f3a6e;
+  --crema: #f5e7c4;
+  --negro: #000;
+}
+
+html {
+  font-size: 65.5%;
+}
+
+body {
+  font-family: "Cinzel", serif;
+  background-image: url("https://www.transparenttextures.com/patterns/paper.png");
+  background-color: #f8f4e3;
+  background-size: cover;
+  color: #4a2c2c;
+  margin: 0;
+  padding: 20px;
+}
+
+.titulo {
+  color: var(--rojo);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 4rem;
+}
+
+.navegador {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+  background-color: var(--verde);
+  width: 100%;
+}
+
+@media (min-width: 480px) {
+  .navegador {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.navegador a {
+  color: var(--azul);
+  text-decoration: none;
+  font-size: 1.8rem;
+  padding: 1rem;
+  font-weight: bold;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.navegador a:hover {
+  background-color: var(--marron);
+  color: var(--amarillo);
+}
+
+.contenedor {
+  width: 100%;
+  margin: 0 auto;
+  margin-left: 0;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+.parrafo {
+  font-size: 2rem;
+  font-family: "Cinzel", serif;
+  color: var(--negro);
+  background-color: var(--verde);
+  border-radius: 1rem;
+  font-weight: bold;
+}
+
+.contenedor_parrafo {
+  max-width: 120rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
