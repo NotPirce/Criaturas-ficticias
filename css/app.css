@@ -159,3 +159,13 @@ table {
   text-align: left;
   background-color: #232020;
 }
+
+.ajuste_img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  margin-top: 1rem;
+  margin-left: 5rem;
+  border: 2rem;
+  border-radius: 2rem;
+}
