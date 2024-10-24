@@ -126,3 +126,36 @@ body {
   margin-top: 1rem;
   font-weight: bold;
 }
+
+thead th {
+  background-color: var(--verde);
+  color: var(--rojo);
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
+tbody td {
+  padding: 1rem;
+  border-bottom: 3px solid #1f0202;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: var(--amarillo);
+}
+
+tbody tr:nth-child(even) {
+  background-color: var(--crema);
+}
+
+tbody tr:hover {
+  background-color: var(--gris);
+}
+
+table {
+  width: 60%;
+  margin: 2rem auto;
+  border-collapse: collapse;
+  font-size: 1.6rem;
+  text-align: left;
+  background-color: #232020;
+}
