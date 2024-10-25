@@ -69,12 +69,6 @@ body {
   margin-left: 0;
 }
 
-.footer {
-  text-align: center;
-  padding: 10px;
-  font-size: 1.2rem;
-}
-
 .parrafo {
   font-size: 2rem;
   font-family: "Cinzel", serif;
@@ -87,13 +81,21 @@ body {
 .contenedor_parrafo {
   max-width: 120rem;
   margin: 0 auto;
-  margin-top: 1rem;
+  margin-top: 2rem;
+  padding: 1rem;
 }
 
 .style_h2 {
   color: var(--negro);
   font-size: 1.9rem;
   text-align: left;
+  margin-top: 2rem;
+}
+
+.style_h2f {
+  color: var(--negro);
+  font-size: 1.9rem;
+  text-align: center;
   margin-top: 2rem;
 }
 
@@ -121,7 +123,7 @@ body {
 
 .style_li2 {
   color: var(--rojo);
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: left;
   margin-top: 1rem;
   font-weight: bold;
@@ -164,8 +166,93 @@ table {
   background-size: cover;
   background-repeat: no-repeat;
   height: 300px;
-  margin-top: 1rem;
+  margin-top: 3rem;
   margin-left: 5rem;
   border: 2rem;
   border-radius: 2rem;
+}
+
+.formulario {
+  background-image: linear-gradient(to left, var(--azul) 0%, var(--crema) 90%);
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.formulario fieldset {
+  border: none;
+}
+
+.formulario legend {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.formulario label {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: start;
+  display: block;
+  margin-top: 1rem;
+}
+
+.formulario input {
+  width: 25%;
+  padding: 1rem;
+  border: none;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  background-image: linear-gradient(
+    to left,
+    var(--gris) -33%,
+    var(--crema) 100%
+  );
+}
+
+.formulario select {
+  width: 25%;
+  padding: 1rem;
+  border: none;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  background-image: linear-gradient(
+    to left,
+    var(--gris) -33%,
+    var(--crema) 100%
+  );
+}
+
+.formulario button {
+  background-image: linear-gradient(
+    to left,
+    var(--crema) 33%,
+    var(--amarillo) 100%
+  );
+  display: block;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 80%;
+  margin-bottom: 2rem;
+  box-shadow: 7px 9px 8px 0px var(--negro);
+}
+
+.contenedor_formulario {
+  max-width: 50rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.sombra {
+  box-shadow: 7px 9px 8px 0px var(--negro);
+}
+
+.footer {
+  margin-top: 5rem;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.2rem;
 }

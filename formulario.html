@@ -3,14 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/app.css" />
     <title>Criaturas ficticias</title>
   </head>
   <body>
     <header>
-      <h1>Criaturas ficticias</h1>
+      <h1 class="titulo">Criaturas ficticias</h1>
     </header>
 
-    <nav>
+    <nav class="navegador contenedor sombra">
       <a href="/index.html">Inicio</a>
       <a href="/listas.html">Listas</a>
       <a href="/tablas.html">Tablas</a>
@@ -19,12 +20,13 @@
     </nav>
 
     <section>
-      <h2>¿Deseas registrarte?</h2>
+      <h2 class="style_h2f">¿Deseas registrarte?</h2>
 
-      <form>
+      <form class="formulario contenedor_formulario prueba sombra">
         <fieldset>
           <legend>Llena este formulario con los datos que gustes</legend>
-          <label for="txtNombre">Nombre</label>
+
+          <label for="txtNombre">Nombre:</label>
           <input
             type="text"
             name="txtNombre"
@@ -32,7 +34,7 @@
             placeholder="Escribe tu nombre"
           />
 
-          <label for="txtEdad">Edad</label>
+          <label for="txtEdad">Edad:</label>
           <input
             type="number"
             name="txtEdad"
@@ -40,7 +42,7 @@
             placeholder="Escribe tu edad"
           />
 
-          <label for="txtCriatura">Seleciona una criarira</label>
+          <label for="txtCriatura">Seleciona una especie</label>
           <select name="txtCriatura" id="txtCriatura" required>
             <option value="">--Selecciona--</option>
             <option value="dragon">Dragon</option>
@@ -49,9 +51,13 @@
             <option value="hada">Hada</option>
           </select>
 
-          <button type="submit">Registrase</button>
+          <button type="submit">Registrar</button>
         </fieldset>
       </form>
     </section>
+
+    <footer class="footer">
+      <p>Todos los derechos reservados. HEMM</p>
+    </footer>
   </body>
 </html>
